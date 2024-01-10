@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+#time-remaining {
+    margin: 0;
+    font-size: 100px;
+}
+
+#duck {
+    position: relative;
+    display: inline-block;
+}
+
+#math {
+    position: absolute;
+    top: 15%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 100px; 
+    font-weight: bold;
+    text-align: right;
+}
+
+#answer {
+    position: absolute;
+    top: 40%; /* Adjust the top position as needed */
+    left: 87%;
+    transform: translateX(-50%);
+    color: white; 
+    font-size: 100px; 
+    font-weight: bold;
+    width: 20%;
+    background-color: transparent;
+}
+
+.input-label {
+    position: absolute;
+    top: 40%; /* Adjust the top position as needed */
+    left: 75%;
+    transform: translateX(-50%);
+    color: white; 
+    font-size: 100px; 
+    font-weight: bold;
+    text-align: right;
+}
+
+
