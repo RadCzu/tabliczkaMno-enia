@@ -49,6 +49,18 @@ header {
     background-color: transparent;
 }
 
+#previous {
+    position: absolute;
+    top: 50%; /* Adjust the top position as needed */
+    left: 75%;
+    transform: translateX(-50%);
+    color: white; 
+    font-size: 100px; 
+    font-weight: bold;
+    width: 20%;
+    background-color: transparent;
+}
+
 .input-label {
     position: absolute;
     top: 40%; /* Adjust the top position as needed */

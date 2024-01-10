@@ -85,9 +85,21 @@ function verifyEquation() {
 
 function newExample() {
   const answerInput = document.getElementById("answer");
+  numbers = getEquationNumbers();
   answerInput.value = "";
-  setTime(10);
+  if(numbers.random1*numbers.random > 169) {
+    setTime(20);
+  } else {
+    setTime(10);
+  }
+
+  setPrevious(`${numbers.random1}x${numbers.random2}=${numbers.random1*numbers.random2}`);
   setEquation();
+}
+
+function setPrevious(text) {
+  const previous = document.getElementById("previous");
+  previous.textContent = text;
 }
 
 function getEquationNumbers() {
